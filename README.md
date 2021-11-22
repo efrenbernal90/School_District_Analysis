@@ -47,8 +47,22 @@ A School Board members have asked for assistance to make budgeting decsions base
 ![Scores by School Size](analysis/Size_Summary.png)
 
 - Scores by School Type
+
 ![Scores by School Type](analysis/School_type_Summary.png)
 
 
-## Challenge Summary
+## Summary
+1. Thomas high School was among the top 5 high schools in the district: 
+- 94% of students passed math.
+- 97% of students passed reading.
+- 91% of students passing overall.
+2. The changes done by removing 9th grade scores does not affect the school district summary:
+- 75% of students passed math.
+- 86% of students passed reading. 
+- 65% of students pass overall. 
+3. Schools of similar size and type performed well:
+- 94% of medium-sized school(1000-2000 students) students passed math, 97% passed reading, with 90% passing overall. 
+- 94% of charter students passed math and 97% passed reading, with 90% passing overall.
+4. Schools that spent between $630 and $644 per student did not perform as well as Thomas High School:
+- 73% of students passed math, while 84% passed reading. 63% of students passed overall. 
 
