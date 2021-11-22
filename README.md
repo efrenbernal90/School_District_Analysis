@@ -15,69 +15,33 @@ A School Board members have asked for assistance to make budgeting decsions base
 - Software: Python 3.7.10, Anaconda 4.10.1
 
 ## Challenge Results
-District Summary:
-
+- District Summary:
 ![District Summary](analysis/District_Summary.png)
+
+- School Summary:
+ ![School Summary](analysis/School_Summary.png)
+
+- Top Performing Schools
+ ![Top Schools](analysis/Top_5_schools.png)
+
+- Bottom Performing Schools
+![Bottom Schools](analysis/Bottom_Schools.png)
+
+- Math Scores by Grade
+![Math Scores by Grade](analysis/Math_Scores_bGrade.png)
+
+- Reading Scores by Grade
+![Reading Scores by Grade](analysis/Reading_Scores_bGrade.png)
+
+- Scores by School Spending
+![Scores by School Spending](analysis/Spending_Summary.png)
+
+- Scores by School Size
+![Scores by School Size](analysis/Size_Summary.png)
+
+- Scores by School Type
+![Scores by School Type](analysis/School_type_Summary.png)
 
 
 ## Challenge Summary
-
-A 'counties' list was decalred and used to tally county votes within the same loop tracking candidate counts:
-
-        #Write an if statement that checks that the county does not match any existing county in the county list.
-        if county_name not in counties:
-
-            # Add the existing county to the list of counties.
-            counties.append(county_name)
-
-The list was added to a dictionary to begin tracking the count:
-            
-            # Begin tracking the county's vote count.
-            county_votes_dict[county_name] = 0
-
-        # Add a vote to that county's vote count.
-        county_votes_dict[county_name] += 1
-        
-This same method could be used to determine count based on demographical data, such as political party or ethnicity, should that be provided. Simply create a new list and index beginning with zero and iterate within the same 'for' loop:
-
-    # Candidate Options and candidate votes.
-    candidate_options = []
-    candidate_votes = {}
-    # For each row in the CSV file.
-    for row in reader:
-
-        # Add to the total vote count
-        total_votes = total_votes + 1
-
-        county_turnout_votes = county_turnout_votes + 1
-        # Get the candidate name from each row.
-        candidate_name = row[2]
-
-        # 3: Extract the county name from each row.
-        county_name = row[1]
-    
-        # If the candidate does not match any existing candidate add it to
-        # the candidate list
-        if candidate_name not in candidate_options:
-
-            # Add the candidate name to the candidate list.
-            candidate_options.append(candidate_name)
-
-            # And begin tracking that candidate's voter count.
-            candidate_votes[candidate_name] = 0
-
-        # Add a vote to that candidate's count
-        candidate_votes[candidate_name] += 1
-
-        etc.
-        
-The printing script can also be ammended to include additional information, would just require to define additional conditions under the if statement within the same for loop 
-           
-    # Print the county with the largest turnout to the terminal.
-    largest_county_turnout = (
-        f"-------------------------\n"
-        f"Largest County Turnout: {county_highest_turnout}\n"
-        f"-------------------------\n")
-    print(largest_county_turnout)
-
 
