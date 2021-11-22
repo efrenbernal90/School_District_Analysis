@@ -19,7 +19,7 @@ A School Board members have asked for assistance to make budgeting decsions base
 ![District Summary](analysis/District_Summary.png)
 
 - School Summary:
-![School Summary](analysis/School_Summary.png)
+![School Summary](analysis/Schools_Summary.png)
 
 - Top Performing Schools
 ![Top Schools](analysis/Top_5_schools.png)
@@ -28,10 +28,15 @@ A School Board members have asked for assistance to make budgeting decsions base
 ![Bottom Schools](analysis/Bottom_Schools.png)
 
 - Math Scores by Grade
+
+
 ![Math Scores by Grade](analysis/Math_Scores_bGrade.png)
 
 
 - Reading Scores by Grade
+
+
+
 ![Reading Scores by Grade](analysis/Reading_Scores_bGrade.png)
 
 
