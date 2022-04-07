@@ -1,7 +1,7 @@
 # School District Analysis
 
 ## Project Overview
-School Board members have asked for assistance to make budgeting decsions based on different performance outcomes. Thomas High School's 9th grade class showed evidence of academic dishonesty,  therefore these test score data will be removed for this analysis. The following dataframes were used for this analysis. 
+School Board members have asked for assistance to make budgeting decisions based on different performance outcomes. Thomas High School's 9th grade class showed evidence of academic dishonesty,  therefore these test score data will be removed for this analysis. The following dataframes were used for this analysis. 
 1. District Summary for all 15 schools.
 2. School Summary.
 3. Top 5 and bottom 5 schools, based on overall passing percentage. 
